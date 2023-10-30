@@ -1,0 +1,47 @@
+/* NewsFeed.css */
+/* .news-feed {
+    position: sticky;
+    top: 0; /* Adjust the desired top position */
+    /* width: 300px; /* Adjust the desired width */
+    /* background-color: #f5f5f5; Set the background color */
+    /* padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+   */
+  /* .news-feed h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  } */ */
+   */
+  /* NewsFeed.css */
+.newsfeed {
+    position: absolute;
+    top: 0;
+    right: -300px; /* Start off-screen */
+    width: 300px;
+    background-color: #12184c;
+    padding: 10px;
+    border: 1px solid #2608d3;
+    border-radius: 5px;
+    transition: right 0.3s; /* Add transition for smooth slide-in/out */
+  }
+  
+  .news-feed h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .news-feed.visible {
+    right: 0; /* Slide in when the 'visible' class is added */
+  }
+  
+
+  
+/* element.style {
+    flex: 1 1 0%;
+    background-color: #071356;
+    padding: 20px;
+    max-width: 350px;
+    height: 605px;
+} */
